@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C48EE33B-535B-4A14-B0A3-BE9C2CB998C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hospital_Managment_System</RootNamespace>
+    <AssemblyName>Hospital Managment System</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
+    <Reference Include="Oracle.ManagedDataAccess.EntityFramework, Version=6.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cashier.Designer.cs">
+      <DependentUpon>cashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\AddNewWard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier\AddNewWard.Designer.cs">
+      <DependentUpon>AddNewWard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\PatiantRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier\PatiantRegistration.Designer.cs">
+      <DependentUpon>PatiantRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\PatientInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier\PatientInformation.Designer.cs">
+      <DependentUpon>PatientInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\RoomInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashier\RoomInformation.Designer.cs">
+      <DependentUpon>RoomInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manager.Designer.cs">
+      <DependentUpon>manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\AddNewWard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\AddNewWard.Designer.cs">
+      <DependentUpon>AddNewWard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\FinanceManagment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\FinanceManagment.Designer.cs">
+      <DependentUpon>FinanceManagment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\PatiantRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\PatiantRegistration.Designer.cs">
+      <DependentUpon>PatiantRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\PatientInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\PatientInformation.Designer.cs">
+      <DependentUpon>PatientInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\RoomInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\RoomInformation.Designer.cs">
+      <DependentUpon>RoomInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\AddNewWard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient\AddNewWard.Designer.cs">
+      <DependentUpon>AddNewWard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\NewStaffAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient\NewStaffAdd.Designer.cs">
+      <DependentUpon>NewStaffAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\NewUserAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient\NewUserAdd.Designer.cs">
+      <DependentUpon>NewUserAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\PatientInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient\PatientInformation.Designer.cs">
+      <DependentUpon>PatientInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\PatientRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient\PatientRegistration.Designer.cs">
+      <DependentUpon>PatientRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\RoomInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient\RoomInformation.Designer.cs">
+      <DependentUpon>RoomInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\Staffinformaton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient\Staffinformaton.Designer.cs">
+      <DependentUpon>Staffinformaton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\UserInformaton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient\UserInformaton.Designer.cs">
+      <DependentUpon>UserInformaton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashier.resx">
+      <DependentUpon>cashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier\AddNewWard.resx">
+      <DependentUpon>AddNewWard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier\PatiantRegistration.resx">
+      <DependentUpon>PatiantRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier\PatientInformation.resx">
+      <DependentUpon>PatientInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashier\RoomInformation.resx">
+      <DependentUpon>RoomInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manager.resx">
+      <DependentUpon>manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\AddNewWard.resx">
+      <DependentUpon>AddNewWard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\FinanceManagment.resx">
+      <DependentUpon>FinanceManagment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\PatiantRegistration.resx">
+      <DependentUpon>PatiantRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\PatientInformation.resx">
+      <DependentUpon>PatientInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager\RoomInformation.resx">
+      <DependentUpon>RoomInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient\AddNewWard.resx">
+      <DependentUpon>AddNewWard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient\NewStaffAdd.resx">
+      <DependentUpon>NewStaffAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient\NewUserAdd.resx">
+      <DependentUpon>NewUserAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient\PatientInformation.resx">
+      <DependentUpon>PatientInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient\PatientRegistration.resx">
+      <DependentUpon>PatientRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient\RoomInformation.resx">
+      <DependentUpon>RoomInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient\Staffinformaton.resx">
+      <DependentUpon>Staffinformaton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient\UserInformaton.resx">
+      <DependentUpon>UserInformaton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsc">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet3.xss">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet4.xsc">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet4.xss">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

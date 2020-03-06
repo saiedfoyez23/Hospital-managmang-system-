@@ -1,0 +1,33 @@
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\bin\Debug\Hospital Managment System.exe.config
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\bin\Debug\Hospital Managment System.exe
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\bin\Debug\Hospital Managment System.pdb
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital Managment System.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Form1.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Properties.Resources.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital Managment System.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital Managment System.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital Managment System.exe
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital Managment System.pdb
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.admin.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.cashier.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.manager.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Patient.PatientRegistration.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Manager.PatiantRegistration.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Cashier.PatiantRegistration.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital Managment System.csproj.CopyComplete
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Patient.PatientInformation.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Manager.PatientInformation.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Cashier.PatientInformation.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Patient.AddNewWard.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Manager.AddNewWard.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Cashier.AddNewWard.resources
+C:\Users\User\source\repos\Hospital managment system\Hospital Managment System\obj\Debug\Hospital_Managment_System.Patient.RoomInformation.resources
+C:\Users\User\source\repos\Hospital managment system\Hospital Managment System\obj\Debug\Hospital_Managment_System.Patient.NewStaffAdd.resources
+C:\Users\User\source\repos\Hospital managment system\Hospital Managment System\obj\Debug\Hospital_Managment_System.Patient.Staffinformaton.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Patient.NewUserAdd.resources
+C:\Users\User\source\repos\Hospital Managment System\Hospital Managment System\obj\Debug\Hospital_Managment_System.Patient.UserInformaton.resources
+C:\Users\User\source\repos\Hospital managment system\Hospital Managment System\obj\Debug\Hospital_Managment_System.Cashier.RoomInformation.resources
+C:\Users\User\source\repos\Hospital managment system\Hospital Managment System\obj\Debug\Hospital_Managment_System.Manager.RoomInformation.resources
+C:\Users\User\source\repos\Hospital managment system\Hospital Managment System\obj\Debug\Hospital_Managment_System.Manager.FinanceManagment.resources
